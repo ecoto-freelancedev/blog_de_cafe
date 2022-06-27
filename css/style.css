@@ -1,0 +1,35 @@
+:root {
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --funeteParrafos: 'Open Sans', sans-serif;
+
+    --primario: #784d3c;
+    --blanco: #ffffff;
+    --negro: #000000;
+
+}
+
+html {
+    box-sizing: border-box;
+    /*  1rem = 10px */
+    font-size: 62.5%;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--funeteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* Globales */
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
